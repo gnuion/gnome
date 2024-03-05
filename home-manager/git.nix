@@ -2,8 +2,8 @@
 
 {
   enable = true;
-  userName = "Luc Perkins";
-  userEmail = "lucperkins@gmail.com";
+  userName = "gnuion";
+  userEmail = "16549839+gnuion@users.noreply.github.com";
   package = pkgs.gitAndTools.gitFull;
 
   delta = { enable = true; };
@@ -36,10 +36,10 @@
     };
 
     protocol.keybase.allow = "always";
-    credential.helper = "osxkeychain";
+    credential.helper = "gnuion";
     pull.rebase = "false";
     init.defaultBranch = "main";
 
-    user = { signingkey = "16DB1108FB591835"; };
+    user = { signingkey = "1B73CE78C751A653"; };
   };
 }

@@ -6,7 +6,7 @@
   defaults = {
     dock = {
       appswitcher-all-displays = false;
-      autohide = true;
+      autohide = false;
       autohide-delay = 0.5;
       autohide-time-modifier = 1.0;
       dashboard-in-overlay = false;
